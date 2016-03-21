@@ -1,0 +1,17 @@
+@mixin copy-hed {
+	font-family: $decima;
+	font-weight: normal;
+}
+
+@mixin copy {
+	font-family: $tiempos;
+	font-weight: normal;
+	font-size: $size-copy;
+	line-height: 1.7em;
+}
+
+@mixin copy-caps {
+	text-transform: uppercase;
+	letter-spacing: .05em;
+
+}

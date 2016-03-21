@@ -59,7 +59,7 @@ table {
   box-sizing: border-box;
 }
 
-.container:after, .container-full:after, .related-video-container:after, .colors:after {
+.container:after, .container-full:after {
   content: "";
   display: table;
   clear: both;

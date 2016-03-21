@@ -1,12 +1,9 @@
 @import "breakpoint";
+@import "reset";
+@import "variables";
+@import "mixins";
+@import "layout";
+@import "typography";
+@import "home";
 @import "svg";
-
-.icon-dribbble {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	margin-top: -30px;
-	margin-left: -30px;
-	width: 60px;
-	height: 60px;
-}
+@import url('../font/fonts.css');
