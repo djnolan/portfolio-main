@@ -1,0 +1,55 @@
+body, html {
+	height: 100%;	
+}
+
+.wrapper {
+	height: 100%;
+}
+
+.side {
+	float: left;
+	padding: $gutter/2;
+	width: $col-3-12;
+
+	&__title {
+		font-size: $size-h5;
+		@include copy-caps;
+		margin-bottom: 3em;
+	}
+	&__arrows {
+		@include copy-small;
+		background-color: black;
+		color: white;
+		padding: 5px 10px;
+	}
+}
+
+.project {
+	@include copy-small;
+	border: 2px solid black;
+	padding: 5px 10px;
+	position: relative;
+	width: 100%;
+	bottom: 0;
+	font-family: $tiempos-italic;
+	line-height: 1.5em;
+
+	&__title {
+	}
+	&__date {}
+	&__arrows {}
+}
+
+.detail {
+	float: left;
+	position: relative;
+	height: 100%;
+	padding: $gutter/2;
+	width: $col-9-12;
+	text-align: right;
+	&__img {
+		max-width: 100%;
+		max-height: 100%;
+		display: inline-block;
+	}	
+}

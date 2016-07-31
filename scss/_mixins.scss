@@ -15,3 +15,8 @@
 	letter-spacing: .05em;
 
 }
+
+@mixin copy-small {
+	@include copy;
+	font-size: $size-copy-sm;
+}
